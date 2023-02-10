@@ -1,0 +1,23 @@
+.product-box {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px gray;
+    display: inline-block;
+    vertical-align: top;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.product-box:hover {
+    transform: scale(1.1);
+}
+
+.image {
+    width: 200px;
+    height: 220px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
